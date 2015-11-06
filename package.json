@@ -11,12 +11,14 @@
     "url": "git+https://github.com/RyanHatfield/s3-nuget.git"
   },
   "keywords": [
-    "s3",
-    "NuGet",
     "S3",
+    "Bucket",
+    "S3 Bucket",
     "NuGet",
-    "Server",
-    "Bucket"
+    "NuGet Server",
+    "NuGet Restore",
+    "S3 NuGet",
+    "S3 NuGet Restore"
   ],
   "author": "Ryan Hatfield <ryan@ryan.bio>",
   "license": "MIT",
