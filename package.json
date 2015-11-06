@@ -28,5 +28,8 @@
   "homepage": "https://github.com/RyanHatfield/s3-nuget#readme",
   "dependencies": {
     "s3fs": "^2.3.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0"
   }
 }
