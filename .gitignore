@@ -1,0 +1,7 @@
+# Project stuff
+src/
+tools/
+logs/
+
+# Node stuff
+node_modules/

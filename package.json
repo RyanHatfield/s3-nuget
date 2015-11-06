@@ -1,0 +1,30 @@
+{
+  "name": "s3-nuget",
+  "version": "1.0.0",
+  "description": "Enable restoration of private or cached NuGet pakcages from an s3 bucket.",
+  "main": "\"\"",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RyanHatfield/s3-nuget.git"
+  },
+  "keywords": [
+    "s3",
+    "NuGet",
+    "S3",
+    "NuGet",
+    "Server",
+    "Bucket"
+  ],
+  "author": "Ryan Hatfield <ryan@ryan.bio>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RyanHatfield/s3-nuget/issues"
+  },
+  "homepage": "https://github.com/RyanHatfield/s3-nuget#readme",
+  "dependencies": {
+    "s3fs": "^2.3.0"
+  }
+}
