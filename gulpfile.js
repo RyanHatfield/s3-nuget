@@ -1,6 +1,5 @@
 var gulp = require('gulp');
 var gutil = require('gulp-util');
-var S3NuGet = require('./lib/s3-nuget.js');
 
 gulp.task('test-hello', function() {
     console.log('Awesome tests should go here.');
