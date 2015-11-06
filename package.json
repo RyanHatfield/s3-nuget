@@ -2,7 +2,7 @@
   "name": "s3-nuget",
   "version": "1.0.0",
   "description": "Enable restoration of private or cached NuGet pakcages from an s3 bucket.",
-  "main": "\"\"",
+  "main": "index.js",
   "scripts": {
     "test": "gulp test"
   },
