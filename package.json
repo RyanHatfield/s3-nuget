@@ -30,6 +30,7 @@
     "s3fs": "^2.3.0"
   },
   "devDependencies": {
-    "gulp": "^3.9.0"
+    "gulp": "^3.9.0",
+    "gulp-util": "^3.0.7"
   }
 }
