@@ -16,5 +16,5 @@ gulp.task('default', function() {
      console.log('Hello world.');
 });
 
-gulp.task('test', [ 'test-hello', 'test-fail' ]);
+gulp.task('test', [ 'test-hello' ]);
 
