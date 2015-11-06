@@ -1,20 +1,26 @@
 var gulp = require('gulp');
 var gutil = require('gulp-util');
-var S3NuGet = require('./lib/s3-nuget');
+var jshint = require('gulp-jshint');
+var concat = require('gulp-concat');
+var uglify = require('gulp-uglify');
 
-gulp.task('test-hello', function() {
-    console.log('Awesome tests should go here.');
+gulp.task('jshint', function() {
+    gulp.src('./src/*.js')
+        .pipe(jshint())
+        .pipe(jshint.reporter('default'));
 });
 
-gulp.task('test-fail', function() {
-    var err = new gutil.PluginError('S3NuGet', 'error message', {showStack: false});
-    throw err;
-});
-
-// Some top level tasks
 gulp.task('default', function() {
      console.log('Hello world.');
 });
 
-gulp.task('test', [ 'test-hello' ]);
+gulp.task('test', function() {
+    console.log("Awesome test.");
+});
 
+gulp.task('scripts', function() {
+    gulp.src(['./src/*.js'])
+        .pipe(concat('s3-nuget.js'))
+        .pipe(uglify())
+        .pipe(gulp.dest('./lib/'));
+});
