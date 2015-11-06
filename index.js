@@ -1,4 +1,4 @@
-(function (module, s3-nuget) {
-        'use strict';
-            module.exports = s3-nuget;
-}(module, require('./lib/s3-nuget')));
+(function (module, S3NuGet) {
+    'use strict';
+    module.exports = S3NuGet;
+}(module, require('./lib/S3NuGet')));
